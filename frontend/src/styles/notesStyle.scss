@@ -1,0 +1,31 @@
+.myModal {
+    position: fixed;
+    z-index: 999;
+    top: 0;
+    left: 0;
+    width: 100%;
+    min-height: 100%;
+    background-color: rgba(0, 0, 0, 0.75);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 40px;
+}
+
+.modalContent {
+    width: 500px;
+}
+
+.rectangle {
+    min-height: 100%;
+    width: 100px;
+    background-color: #FFF;
+}
+
+#inputCategory {
+    width: 20%;
+}
+
+.inputLogin {
+    width: 100%;
+}
